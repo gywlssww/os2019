@@ -2,7 +2,7 @@
 
 부동산 시세 알림 챗봇
 
-서울시열린데이터광장에서 제공하는 서울특별시 전월세가 정보(http://data.seoul.go.kr/dataList/datasetView.do?infId=OA-15549&srvType=S&serviceKind=1&currentPageNo=1)
+서울시열린데이터광장에서 제공하는 서울특별시 전월세가 정보(http://data.seoul.go.kr/dataList/datasetView.do?infId=OA-15549&srvType=S&serviceKind=1&currentPageNo=1)를 이용해 시세를 예측한다.
 
 geopandas를 사용해 구 이름과 좌표 등이 입력되어 있는 서울시 행정구역 데이터 seoul_municipalities_geo.json을 읽어와 사용자가 입력한 평수와 건물 유형에 해당하는 서울시 전/월세 지도 이미지를 생성한다.
 
